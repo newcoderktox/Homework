@@ -10,7 +10,7 @@ abstract class Character{
 }
 class Hero extends Character implements Survivor{
      @Override
-     void attack() {
+     public void attack() {
          System.out.println("Hero attacks with sword.");
      }
     @Override
